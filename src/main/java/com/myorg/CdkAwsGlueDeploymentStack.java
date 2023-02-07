@@ -130,6 +130,7 @@ public class CdkAwsGlueDeploymentStack extends Stack {
                     .path(s3Path)
                     .build();
 
+
             // Add the S3Target to a list.
             List<S3Target> targetList = new ArrayList<>();
             targetList.add(s3Target);
